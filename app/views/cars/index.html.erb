@@ -1,0 +1,26 @@
+<h1>Listing car_dealerships</h1>
+
+<table border ="1">
+  <tr>
+    <th>Model</th>
+    <th>Make</th>
+    <th>Body</th>
+    <th>Year</th>
+
+  </tr>
+
+<% @car.each do |car| %>
+  <tr>
+    <td><%= car.model %></td>
+    <td><%= car.make %></td>
+    <td><%= car.body%></td>
+    <td><%= car.year%></td>
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+
+<%= link_to "Car Dealerships", "/cardealerships/index" %>
