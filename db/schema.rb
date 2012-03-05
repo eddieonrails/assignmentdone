@@ -17,8 +17,8 @@ ActiveRecord::Schema.define(:version => 20120305092634) do
     t.string   "name"
     t.string   "address"
     t.string   "number"
-    t.datetime "created_at", :null => true
-    t.datetime "updated_at", :null => true
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "cars", :force => true do |t|
@@ -26,8 +26,8 @@ ActiveRecord::Schema.define(:version => 20120305092634) do
     t.string   "model"
     t.string   "body_type"
     t.integer  "year"
-    t.datetime "created_at", :null => true
-    t.datetime "updated_at", :null => true
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
     t.string   "color"
     t.text     "extras"
   end
