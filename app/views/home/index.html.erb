@@ -2,18 +2,27 @@
 <html>
 <body style = "bgcolor :  #d3d3d3">
 
-<div style="background-color:#33CCFF ">
+<div style="background-color: #33CCFF ">
 
-<h2 style = "text-align:center;">AUTODEALER</h2>
+<h2 style = "text-align:center;">AUTO DEALER</h2>
 <hr/>
 </div>
 
- <div style= height:400px;width:500px;float:left;>
+ <div style = background-color:#A8A8A8 >
+      <table>
+     <th> <%= image_tag("car-530.jpg", :alt => "bentley gt") %> </th>
+      <th>
+        <table>
+              <%= image_tag("beema2.jpg", :alt => "bmw M3 ") %> </th>
+              <%= image_tag("dealership2.jpg", :alt => "dealer ") %> </th>
 
-
+        </table>
+      </th>
+      </table>
 </div>
- <%= link_to "Car", "/cars/show" %>
- <%= link_to "Car Dealerships", "/cardealerships/index" %>
+
+ <%= link_to "Cars in stock", "/cars/show" %> <br>
+ <%= link_to "Car Dealerships in SA", "/cardealerships/index" %>
 
 <div id="footer" style="background-color:#CCFFFF;clear:both;text-align:center;">EDWIN MATERA :201175812
 </div>
