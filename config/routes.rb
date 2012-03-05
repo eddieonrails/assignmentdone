@@ -3,7 +3,7 @@ Assignment3::Application.routes.draw do
 
   resources :cars
 
-  resources :posts
+
 
  get "home/index"
 
@@ -56,6 +56,7 @@ Assignment3::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
+
    root :to => 'home#index'
 
 
