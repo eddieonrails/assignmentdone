@@ -1,15 +1,16 @@
 class CarsController < ApplicationController
 
-  def index
+  def show
 
-    @cars = Car.all
+    @vehicle = Car.all
 
     respond_to do |format|
-      format.html # index.html.erb
-      format.json  { render json: @cars}
+     format.html # index.html.erb
+     format.json  { render json: @vehicle}
 
-    end
+
 
   end
-end
+  end
+  end
 

@@ -1,4 +1,4 @@
-<h1>Listing car_dealerships</h1>
+<h1>Listing Available cars</h1>
 
 <table border ="1">
   <tr>
@@ -9,7 +9,7 @@
 
   </tr>
 
-<% @car.each do |car| %>
+<% @vehicle.each do |car| %>
   <tr>
     <td><%= car.model %></td>
     <td><%= car.make %></td>
@@ -24,3 +24,4 @@
 
 
 <%= link_to "Car Dealerships", "/cardealerships/index" %>
+<%= link_to "Home", "/home/index" %>

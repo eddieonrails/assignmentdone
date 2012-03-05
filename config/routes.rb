@@ -61,7 +61,8 @@ Assignment3::Application.routes.draw do
 
    match  '/cardealerships/index' => "car_dealerships#index"
    #root :to => 'home#index'
-   match  '/cars/index' => "cars#index"
+   match  '/cars/show' => "cars#show"
+   match '/home/index' => "home#index"
    #root :to => 'home#show'
   # See how all your routes lay out with "rake routes"
 
