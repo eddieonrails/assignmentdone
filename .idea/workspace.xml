@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1704a91-d2a7-44f9-a23b-340322d5c091" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\rumbidzai\Desktop\computer_science\assignment3\db\migrate\add_color_to_car.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rumbidzai\Desktop\computer_science\assignment3\db\migrate\add_description_to_car.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rumbidzai\Desktop\computer_science\assignment3\db\migrate\rename_body_column.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/assignment3.iml" afterPath="$PROJECT_DIR$/.idea/assignment3.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/car_dealerships/index.html.erb" afterPath="$PROJECT_DIR$/app/views/car_dealerships/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cars/show.html.erb" afterPath="$PROJECT_DIR$/app/views/cars/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="assignment3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,7 +68,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/cars/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="55" selection-start="164" selection-end="164" vertical-scroll-proportion="0.24144487">
+            <state line="17" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="0.4353612">
               <folding />
             </state>
           </provider>
@@ -574,6 +566,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -587,7 +580,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -718,7 +710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/cars/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="55" selection-start="164" selection-end="164" vertical-scroll-proportion="0.24144487">
+        <state line="17" column="31" selection-start="292" selection-end="292" vertical-scroll-proportion="0.4353612">
           <folding />
         </state>
       </provider>
